@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iconProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_newproduct"
+            />
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:paddingStart="16dp"
+            android:textSize="20dp"
+            android:text="Nombre producto"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/productDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:layout_marginTop="30dp"
+            android:paddingStart="16dp"
+            android:textSize="15dp"
+            android:text="Descripción producto"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/ButtonDeleteProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/productName"
+            android:textSize="10dp"
+            android:layout_marginStart="50dp"
+            android:text="@string/Delete"
+            />
+        <Button
+            android:id="@+id/ButtonBuyAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/productName"
+            android:layout_below="@id/ButtonDeleteProduct"
+            android:layout_marginStart="50dp"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Edit"
+            />
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="Blue">#297afb</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Add_Cart">Agregar al carrito</string>
+    <string name="Amount">Cantidad:</string>
+    <string name="Button_Login">Iniciar Sesión</string>
+    <string name="Buy_Again">Comprar nuevamente</string>
+    <string name="Cancel_Purchase">Cancelar Pedido</string>
+    <string name="Cart">Carrito</string>
+    <string name="Category_Name">Nombre Categoria</string>
+    <string name="Category_Register">Registrar Categoria</string>
+    <string name="Consult_Categories">Consultar Categorias</string>
+    <string name="Consult_Menus">Consultar Menus</string>
+    <string name="Consult_Orders">Consultar Pedidos</string>
+    <string name="Consult_Products">Consultar Productos</string>
+    <string name="Continue_Pay">Proceder Pago</string>
+    <string name="Delete">Eliminar</string>
+    <string name="Delete_Product">Eliminar Platillo</string>
+    <string name="Description">Descripción</string>
+    <string name="Edit">Editar</string>
+    <string name="Edit_Category">Editar Categoria</string>
+    <string name="Edit_Menu">Editar Menu</string>
+    <string name="Edit_Product">Editar Producto</string>
+    <string name="Email">Correo electrónico</string>
+    <string name="Favorite_Product">Platillos Favoritos</string>
+    <string name="Image">Imagen</string>
+    <string name="InstructionsCode">Ingrese el codigo de validación</string>
+    <string name="InstructionsEmail">Ingrese su correo</string>
+    <string name="Label_Password">Contraseña</string>
+    <string name="Label_User">Usuario</string>
+    <string name="Menu">Menú</string>
+    <string name="Menu_Day">Platillo del dia</string>
+    <string name="Menu_Register">Registrar Menu</string>
+    <string name="My_Orders">Mis Pedidos Realizados</string>
+    <string name="Name">Nombre Completo</string>
+    <string name="NameData">Nombre</string>
+    <string name="Order_Now">!ORDENA AHORA¡</string>
+    <string name="Price">Precio</string>
+    <string name="Product_Register">Registrar Producto</string>
+    <string name="Products">Productos</string>
+    <string name="Rate_now">Calificar Producto</string>
+    <string name="Record">Historial</string>
+    <string name="Recover_Password">Recuperar Contraseña</string>
+    <string name="Register">Registrar</string>
+    <string name="RepeatPassword">Confirmar contraseña</string>
+    <string name="Reply">Contestar</string>
+    <string name="Return">Regresar</string>
+    <string name="SavePassword">Guardar contraseña</string>
+    <string name="Select_Category">Seleccionar Categoria</string>
+    <string name="SendCode">Enviar correo </string>
+    <string name="Sign_In">Registrarse</string>
+    <string name="Subtotal">Subtotal:</string>
+    <string name="TitleEmployee">Opciones de empleado</string>
+    <string name="User_Options">Opciones de Usuario</string>
+    <string name="User_Register">Registrar Usuario</string>
+    <string name="ValidateCode">Validar código</string>
+    <string name="app_name">Uv_Eats</string>
+    <string name="newPassword">Ingresa la nueva contraseña</string>
+    <style name="Theme.Uv_Eats" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

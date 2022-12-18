@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="Activity.ProductRegister"
+         android:tag="layout/activity_product_register_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/Product_Register"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/NameData"
+                android:layout_marginTop="16dp"
+                />
+            <EditText
+                android:id="@+id/TextNameProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="@string/Description"
+                />
+
+            <EditText
+                android:id="@+id/TextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Price"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/TextPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/OptionsCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/Image"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/ImageProduct"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon_camara"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/ButtonRegisterProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Register"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+         

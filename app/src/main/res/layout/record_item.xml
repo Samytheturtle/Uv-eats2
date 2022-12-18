@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iconProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_newproduct"
+            />
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:paddingStart="16dp"
+            android:textSize="20dp"
+            android:text="Nombre producto"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/FormatPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:layout_below="@id/productDescription"
+            android:paddingStart="16dp"
+            android:textSize="15dp"
+            android:text="Forma de pago"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/productDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:layout_marginTop="30dp"
+            android:paddingStart="16dp"
+            android:textSize="15dp"
+            android:text="fecha entrega"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Place"
+            android:layout_marginTop="10dp"
+            android:text="@string/Rate_now"
+            />
+        <TextView
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:layout_below="@id/FormatPay"
+            android:paddingStart="16dp"
+            android:textSize="15dp"
+            android:text="Cambio"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/Place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:layout_below="@id/change"
+            android:paddingStart="16dp"
+            android:textSize="15dp"
+            android:text="Lugar de entrega"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+</layout>

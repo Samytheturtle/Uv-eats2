@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/iconProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_newproduct"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:paddingStart="16dp"
+            android:textSize="20dp"
+            android:text="Nombre producto"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount"
+            android:layout_toEndOf="@id/iconProduct"
+            android:textSize="20dp"
+            android:paddingStart="16dp"
+            android:text="@string/Price"
+            />
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/price"
+            android:layout_below="@id/amount"
+            android:paddingStart="16dp"
+            android:textSize="20dp"
+            android:text="$200"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconProduct"
+            android:layout_below="@id/productName"
+            android:paddingStart="16dp"
+            android:textSize="20dp"
+            android:text="@string/Amount"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/amountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/amount"
+            android:layout_below="@id/productName"
+            android:textSize="20dp"
+            android:text="2"
+            android:paddingLeft="5dp"
+            />
+    </RelativeLayout>
+</layout>

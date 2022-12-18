@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable-v24_logologin.PNG.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable-v24/logologin.PNG"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_like.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_like.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_consult_menus.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_consult_menus.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_consultorders_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/consultorders_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_fragment_menu.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_favorite_product_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/favorite_product_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_cart.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_cart.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_category_edit.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_category_edit.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_consultmenus_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/consultmenus_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_favorite_products.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_favorite_products.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_fragment_products.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/fragment_products.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_newproduct.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_newproduct.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_menu.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_menu.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_consult_categories.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_consult_categories.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_camara.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_camara.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_record_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/record_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_user_options.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_user_options.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_user.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_user.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_product_register.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_product_register.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_consult_products.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_consult_products.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_options.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_options.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_cart_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/cart_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_consult_orders.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_consult_orders.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_product_edit.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_product_edit.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_menu_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/menu_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_dislike.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_dislike.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_exit.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_exit.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_product.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_product.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_principal_tab_menu_activity.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_principal_tab_menu_activity.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_employee_options.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_employee_options.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable_icon_record.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/drawable/icon_record.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_fragment_cart.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_proceed_purchase.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_proceed_purchase.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uv_eats.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_product_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/product_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_proceedpurchase_item.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/proceedpurchase_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_category_register.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_category_register.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.uv_eats.app-pngs-0:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_fragment_record.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/fragment_record.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/xml/backup_rules.xml"
+    }
+]

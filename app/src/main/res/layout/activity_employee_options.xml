@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activity.EmployeeOptions">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:text="@string/TitleEmployee"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/ButtonUserRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/User_Register"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonProductRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Product_Register"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonCategoryRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Category_Register"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonMenuRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Menu_Register"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonEditProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Edit_Product"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonEditCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Edit_Category"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonEditMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Edit_Menu"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonConsultProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Consult_Products"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonConsultCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Consult_Categories"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+
+        <Button
+            android:id="@+id/ButtonConsultMenus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Consult_Menus"
+            android:textColor="@color/white"
+            android:background="@color/Blue"
+            />
+    </LinearLayout>
+</layout>
