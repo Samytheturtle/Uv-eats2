@@ -15,7 +15,7 @@ public class ActivityConsultProductsBindingImpl extends ActivityConsultProductsB
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.spinnerProducts, 1);
-        sViewsWithIds.put(R.id.eq_recycler, 2);
+        sViewsWithIds.put(R.id.eq_recycler_product, 2);
         sViewsWithIds.put(R.id.ButtonReturn, 3);
     }
     // views

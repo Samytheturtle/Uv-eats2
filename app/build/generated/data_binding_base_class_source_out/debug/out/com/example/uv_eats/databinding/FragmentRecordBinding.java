@@ -15,12 +15,12 @@ import java.lang.Object;
 
 public abstract class FragmentRecordBinding extends ViewDataBinding {
   @NonNull
-  public final RecyclerView eqRecycler;
+  public final RecyclerView eqRecyclerRecord;
 
   protected FragmentRecordBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView eqRecycler) {
+      RecyclerView eqRecyclerRecord) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.eqRecycler = eqRecycler;
+    this.eqRecyclerRecord = eqRecyclerRecord;
   }
 
   @NonNull

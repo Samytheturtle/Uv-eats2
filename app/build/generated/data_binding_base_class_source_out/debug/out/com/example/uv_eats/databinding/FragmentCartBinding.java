@@ -19,13 +19,13 @@ public abstract class FragmentCartBinding extends ViewDataBinding {
   public final Button ProceedPurchase;
 
   @NonNull
-  public final RecyclerView eqRecycler;
+  public final RecyclerView eqRecyclerCar;
 
   protected FragmentCartBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button ProceedPurchase, RecyclerView eqRecycler) {
+      Button ProceedPurchase, RecyclerView eqRecyclerCar) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ProceedPurchase = ProceedPurchase;
-    this.eqRecycler = eqRecycler;
+    this.eqRecyclerCar = eqRecyclerCar;
   }
 
   @NonNull

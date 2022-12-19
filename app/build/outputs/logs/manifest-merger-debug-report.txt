@@ -11,6 +11,7 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\SamuelSC\.grad
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\SamuelSC\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\9957f677aa4ca64938f214cf1fa220ad\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\5d666d306352f7fdca8df50525096bc2\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\96e7554634152527609a0a2a210aa86b\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a37bf7661255a6a0a3e20f2d11ec700f\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\SamuelSC\.gradle\caches\transforms-3\7c89c8a34c2ecc728308042ac673d46f\transformed\viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
@@ -38,6 +39,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\SamuelSC\.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\6079f7a765a62598ba06a2f5fdead08d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\2051c9bdb0f5e6abe40d8c0e3c4f2a94\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\52b9fcca0fa9662d0e8133a26fe2fc17\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\973076ab684cbd110d3e7e378f344952\transformed\lifecycle-livedata-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\6ad65893864227e983047caab092aeef\transformed\lifecycle-livedata-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\c6ae280b67e78041650385721a33c510\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -80,6 +82,8 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\SamuelSC\.grad
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\b6f52d92dea29c0a7f49d4078033a89a\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\SamuelSC\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\SamuelSC\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.8.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
@@ -234,6 +238,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\SamuelSC\.gr
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\9957f677aa4ca64938f214cf1fa220ad\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\5d666d306352f7fdca8df50525096bc2\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\5d666d306352f7fdca8df50525096bc2\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\96e7554634152527609a0a2a210aa86b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\96e7554634152527609a0a2a210aa86b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a37bf7661255a6a0a3e20f2d11ec700f\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
@@ -288,6 +294,8 @@ MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\SamuelSC\.gradle\cac
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\2051c9bdb0f5e6abe40d8c0e3c4f2a94\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\52b9fcca0fa9662d0e8133a26fe2fc17\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\52b9fcca0fa9662d0e8133a26fe2fc17\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\973076ab684cbd110d3e7e378f344952\transformed\lifecycle-livedata-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\973076ab684cbd110d3e7e378f344952\transformed\lifecycle-livedata-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\6ad65893864227e983047caab092aeef\transformed\lifecycle-livedata-2.5.1\AndroidManifest.xml:20:5-22:41
@@ -324,6 +332,14 @@ INJECTED from A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidMani
 		INJECTED from A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml
 		ADDED from A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml
 		INJECTED from A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20

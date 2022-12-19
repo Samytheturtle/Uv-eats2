@@ -15,12 +15,12 @@ import java.lang.Object;
 
 public abstract class ActivityProceedPurchaseBinding extends ViewDataBinding {
   @NonNull
-  public final RecyclerView eqRecycler;
+  public final RecyclerView eqRecyclerProduct;
 
   protected ActivityProceedPurchaseBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, RecyclerView eqRecycler) {
+      int _localFieldCount, RecyclerView eqRecyclerProduct) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.eqRecycler = eqRecycler;
+    this.eqRecyclerProduct = eqRecyclerProduct;
   }
 
   @NonNull

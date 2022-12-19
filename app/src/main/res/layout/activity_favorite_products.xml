@@ -25,7 +25,7 @@
                 android:textSize="30dp"
                 />
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/eq_recycler"
+                android:id="@+id/eq_recycler_product"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:itemCount="2"

@@ -20,16 +20,17 @@ public abstract class ActivityConsultProductsBinding extends ViewDataBinding {
   public final Button ButtonReturn;
 
   @NonNull
-  public final RecyclerView eqRecycler;
+  public final RecyclerView eqRecyclerProduct;
 
   @NonNull
   public final Spinner spinnerProducts;
 
   protected ActivityConsultProductsBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, Button ButtonReturn, RecyclerView eqRecycler, Spinner spinnerProducts) {
+      int _localFieldCount, Button ButtonReturn, RecyclerView eqRecyclerProduct,
+      Spinner spinnerProducts) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ButtonReturn = ButtonReturn;
-    this.eqRecycler = eqRecycler;
+    this.eqRecyclerProduct = eqRecyclerProduct;
     this.spinnerProducts = spinnerProducts;
   }
 

@@ -2755,7 +2755,10 @@ int id end 0x7f0800e2
 int id endToStart 0x7f0800e3
 int id enterAlways 0x7f0800e4
 int id enterAlwaysCollapsed 0x7f0800e5
-int id eq_recycler 0x7f0800e6
+int id eq_recycler_car 0x7f080224
+int id eq_recycler_menu 0x7f080225
+int id eq_recycler_product 0x7f080226
+int id eq_recycler_record 0x7f080227
 int id exitUntilCollapsed 0x7f0800e7
 int id expand_activities_button 0x7f0800e8
 int id expanded_menu 0x7f0800e9
@@ -2992,9 +2995,9 @@ int id stretch 0x7f0801cf
 int id submenuarrow 0x7f0801d0
 int id submit_area 0x7f0801d1
 int id supportScrollUp 0x7f0801d2
-int id tab 0x7f0801d3
 int id tabCart 0x7f0801d4
 int id tabLayout 0x7f0801d5
+int id tabMenu 0x7f080228
 int id tabMode 0x7f0801d6
 int id tabProducts 0x7f0801d7
 int id tabRecord 0x7f0801d8

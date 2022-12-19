@@ -1,4 +1,4 @@
-#Sun Dec 18 12:16:11 CST 2022
+#Mon Dec 19 00:02:04 CST 2022
 path.4=1/classes.dex
 path.3=13/classes.dex
 path.2=11/classes.dex
@@ -9,6 +9,7 @@ path.8=8/classes.dex
 path.7=6/classes.dex
 path.6=4/classes.dex
 path.5=2/classes.dex
+renamed.10=classes11.dex
 path.0=classes.dex
 base.4=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 base.3=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
@@ -18,6 +19,7 @@ base.0=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.10=15/classes.dex
 renamed.0=classes.dex
 base.9=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 path.9=9/classes.dex
@@ -29,3 +31,4 @@ renamed.5=classes6.dex
 base.6=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 renamed.4=classes5.dex
 base.5=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.10=A\:\\Android Studio proyects\\COPIA 1\\github\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex

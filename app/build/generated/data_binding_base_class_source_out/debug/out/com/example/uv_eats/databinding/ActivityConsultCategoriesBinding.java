@@ -19,13 +19,13 @@ public abstract class ActivityConsultCategoriesBinding extends ViewDataBinding {
   public final Button ButtonReturn;
 
   @NonNull
-  public final RecyclerView eqRecycler;
+  public final RecyclerView eqRecyclerProduct;
 
   protected ActivityConsultCategoriesBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, Button ButtonReturn, RecyclerView eqRecycler) {
+      int _localFieldCount, Button ButtonReturn, RecyclerView eqRecyclerProduct) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ButtonReturn = ButtonReturn;
-    this.eqRecycler = eqRecycler;
+    this.eqRecyclerProduct = eqRecyclerProduct;
   }
 
   @NonNull

@@ -68,7 +68,10 @@ id amount
 id amountNumber
 id change
 id checkbox
-id eq_recycler
+id eq_recycler_car
+id eq_recycler_menu
+id eq_recycler_product
+id eq_recycler_record
 id iconProduct
 id linear
 id price
@@ -76,9 +79,9 @@ id productDescription
 id productName
 id productPrice
 id spinnerProducts
-id tab
 id tabCart
 id tabLayout
+id tabMenu
 id tabProducts
 id tabRecord
 id titleMenuText

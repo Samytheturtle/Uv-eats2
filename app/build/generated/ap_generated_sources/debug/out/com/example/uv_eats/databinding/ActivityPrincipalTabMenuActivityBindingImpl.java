@@ -18,7 +18,7 @@ public class ActivityPrincipalTabMenuActivityBindingImpl extends ActivityPrincip
         sViewsWithIds.put(R.id.UserImage, 2);
         sViewsWithIds.put(R.id.ExitImage, 3);
         sViewsWithIds.put(R.id.tabLayout, 4);
-        sViewsWithIds.put(R.id.tab, 5);
+        sViewsWithIds.put(R.id.tabMenu, 5);
         sViewsWithIds.put(R.id.tabProducts, 6);
         sViewsWithIds.put(R.id.tabCart, 7);
         sViewsWithIds.put(R.id.tabRecord, 8);
@@ -40,9 +40,9 @@ public class ActivityPrincipalTabMenuActivityBindingImpl extends ActivityPrincip
             , (android.widget.ImageView) bindings[3]
             , (android.widget.ImageView) bindings[1]
             , (android.widget.ImageView) bindings[2]
-            , (com.google.android.material.tabs.TabItem) bindings[5]
             , (com.google.android.material.tabs.TabItem) bindings[7]
             , (com.google.android.material.tabs.TabLayout) bindings[4]
+            , (com.google.android.material.tabs.TabItem) bindings[5]
             , (com.google.android.material.tabs.TabItem) bindings[6]
             , (com.google.android.material.tabs.TabItem) bindings[8]
             , (androidx.viewpager.widget.ViewPager) bindings[9]

@@ -27,13 +27,13 @@ public abstract class ActivityPrincipalTabMenuActivityBinding extends ViewDataBi
   public final ImageView UserImage;
 
   @NonNull
-  public final TabItem tab;
-
-  @NonNull
   public final TabItem tabCart;
 
   @NonNull
   public final TabLayout tabLayout;
+
+  @NonNull
+  public final TabItem tabMenu;
 
   @NonNull
   public final TabItem tabProducts;
@@ -46,15 +46,15 @@ public abstract class ActivityPrincipalTabMenuActivityBinding extends ViewDataBi
 
   protected ActivityPrincipalTabMenuActivityBinding(Object _bindingComponent, View _root,
       int _localFieldCount, ImageView ExitImage, ImageView OptionsImage, ImageView UserImage,
-      TabItem tab, TabItem tabCart, TabLayout tabLayout, TabItem tabProducts, TabItem tabRecord,
+      TabItem tabCart, TabLayout tabLayout, TabItem tabMenu, TabItem tabProducts, TabItem tabRecord,
       ViewPager viewPager) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ExitImage = ExitImage;
     this.OptionsImage = OptionsImage;
     this.UserImage = UserImage;
-    this.tab = tab;
     this.tabCart = tabCart;
     this.tabLayout = tabLayout;
+    this.tabMenu = tabMenu;
     this.tabProducts = tabProducts;
     this.tabRecord = tabRecord;
     this.viewPager = viewPager;

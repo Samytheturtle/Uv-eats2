@@ -16,15 +16,15 @@ import java.lang.Object;
 
 public abstract class FragmentMenuBinding extends ViewDataBinding {
   @NonNull
-  public final RecyclerView eqRecycler;
+  public final RecyclerView eqRecyclerMenu;
 
   @NonNull
   public final TextView titleMenuText;
 
   protected FragmentMenuBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView eqRecycler, TextView titleMenuText) {
+      RecyclerView eqRecyclerMenu, TextView titleMenuText) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.eqRecycler = eqRecycler;
+    this.eqRecyclerMenu = eqRecyclerMenu;
     this.titleMenuText = titleMenuText;
   }
 

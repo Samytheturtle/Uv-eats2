@@ -14,7 +14,7 @@ public class ActivityConsultMenusBindingImpl extends ActivityConsultMenusBinding
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.eq_recycler, 1);
+        sViewsWithIds.put(R.id.eq_recycler_product, 1);
         sViewsWithIds.put(R.id.ButtonReturn, 2);
     }
     // views

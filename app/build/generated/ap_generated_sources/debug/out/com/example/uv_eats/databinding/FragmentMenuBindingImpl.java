@@ -15,7 +15,7 @@ public class FragmentMenuBindingImpl extends FragmentMenuBinding  {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.titleMenuText, 1);
-        sViewsWithIds.put(R.id.eq_recycler, 2);
+        sViewsWithIds.put(R.id.eq_recycler_menu, 2);
     }
     // views
     @NonNull

@@ -14,7 +14,7 @@ public class ActivityFavoriteProductsBindingImpl extends ActivityFavoriteProduct
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.eq_recycler, 1);
+        sViewsWithIds.put(R.id.eq_recycler_product, 1);
     }
     // views
     @NonNull

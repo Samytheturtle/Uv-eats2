@@ -3,23 +3,29 @@ package com.example.uv_eats.Activity.Controller;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.uv_eats.Activity.Adapter.ReclyclerViewMenu;
 import com.example.uv_eats.Activity.POCO.Auth;
+import com.example.uv_eats.Activity.POCO.Modelo.MenuProducto;
 import com.example.uv_eats.R;
 import com.example.uv_eats.databinding.ActivityPrincipalTabMenuActivityBinding;
 import com.example.uv_eats.databinding.FragmentMenuBinding;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Menu#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Menu extends Fragment {
+public class Menu extends Fragment{
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,8 +37,9 @@ public class Menu extends Fragment {
     private String mParam2;
     private Auth autenticacionRecibida;
     private FragmentMenuBinding binding;
-    private RecyclerView recyclerViewMenu;
-    private RecyclerViewAdaptador adaptador;
+
+
+
     public Menu() {
         // Required empty public constructor
     }
@@ -66,13 +73,9 @@ public class Menu extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        cargarProductos();
 
-    }
-
-    private void cargarProductos() {
-
-        //binding.eqRecycler.add(newInstance("prueba","prueba"));
+        //recyclerViewMenu=(RecyclerView) findViewById(R.id.eq_recycler_product);
+        //recyclerViewMenu.setLayoutManager(new LinearLayoutManager(this));
     }
 
     @Override

@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(usernameText.equals("")||passwordText.equals("")){
             cajadealerta("Campos vacios, por favor verificar");
+            //startPrincipalTab2();
         }else{
             ConsumoAPI();
         }
@@ -106,6 +107,10 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtras(bundle);
         bundle2.putSerializable("tipo",tipoUsuario);
         intent.putExtras(bundle2);
+        startActivity(intent);
+    }
+    private void startPrincipalTab2(){
+        Intent intent = new Intent(this, PrincipalTabMenuActivity.class);
         startActivity(intent);
     }
     public void cajadealerta(String tipoError){

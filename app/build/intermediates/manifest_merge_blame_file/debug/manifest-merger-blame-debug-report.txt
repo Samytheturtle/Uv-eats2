@@ -33,229 +33,238 @@
 21-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:13:9-54
 22        android:supportsRtl="true"
 22-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:14:9-35
-23        android:theme="@style/Theme.Uv_Eats" >
-23-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:15:9-45
-24        <activity
-24-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:17:9-23:20
-25            android:name="com.example.uv_eats.Activity.UserOptions"
-25-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:18:13-49
-26            android:exported="false" >
-26-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:19:13-37
-27            <meta-data
-27-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-28                android:name="android.app.lib_name"
-28-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-29                android:value="" />
-29-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-30        </activity>
-31        <activity
-31-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:24:9-30:20
-32            android:name="com.example.uv_eats.Activity.ConsultOrders"
-32-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:25:13-51
-33            android:exported="false" >
-33-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:26:13-37
-34            <meta-data
-34-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-35                android:name="android.app.lib_name"
-35-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-36                android:value="" />
-36-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-37        </activity>
-38        <activity
-38-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:31:9-37:20
-39            android:name="com.example.uv_eats.Activity.ConsultCategories"
-39-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:32:13-55
-40            android:exported="false" >
-40-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:33:13-37
-41            <meta-data
-41-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-42                android:name="android.app.lib_name"
-42-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-43                android:value="" />
-43-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-44        </activity>
-45        <activity
-45-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:38:9-44:20
-46            android:name="com.example.uv_eats.Activity.ConsultProducts"
-46-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:39:13-53
-47            android:exported="false" >
-47-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:40:13-37
-48            <meta-data
-48-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-49                android:name="android.app.lib_name"
-49-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-50                android:value="" />
-50-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-51        </activity>
-52        <activity
-52-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:45:9-51:20
-53            android:name="com.example.uv_eats.Activity.ConsultMenus"
-53-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:46:13-50
-54            android:exported="false" >
-54-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:47:13-37
-55            <meta-data
-55-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-56                android:name="android.app.lib_name"
-56-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-57                android:value="" />
-57-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-58        </activity>
-59        <activity
-59-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:52:9-58:20
-60            android:name="com.example.uv_eats.Activity.FavoriteProducts"
-60-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:53:13-54
-61            android:exported="false" >
-61-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:54:13-37
-62            <meta-data
-62-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-63                android:name="android.app.lib_name"
-63-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-64                android:value="" />
-64-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-65        </activity>
-66        <activity
-66-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:59:9-65:20
-67            android:name="com.example.uv_eats.Activity.ProceedPurchase"
-67-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:60:13-53
-68            android:exported="false" >
-68-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:61:13-37
-69            <meta-data
-69-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-70                android:name="android.app.lib_name"
-70-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-71                android:value="" />
-71-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-72        </activity>
-73        <activity
-73-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:66:9-72:20
-74            android:name="com.example.uv_eats.Activity.CategoryEdit"
-74-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:67:13-50
-75            android:exported="false" >
-75-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:68:13-37
-76            <meta-data
-76-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-77                android:name="android.app.lib_name"
-77-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-78                android:value="" />
-78-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-79        </activity>
-80        <activity
-80-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:73:9-79:20
-81            android:name="com.example.uv_eats.Activity.ProductEdit"
-81-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:74:13-49
-82            android:exported="false" >
-82-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:75:13-37
-83            <meta-data
-83-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-84                android:name="android.app.lib_name"
-84-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-85                android:value="" />
-85-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-86        </activity>
-87        <activity
-87-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:80:9-86:20
-88            android:name="com.example.uv_eats.Activity.ProductRegister"
-88-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:81:13-53
-89            android:exported="false" >
-89-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:82:13-37
-90            <meta-data
-90-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-91                android:name="android.app.lib_name"
-91-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-92                android:value="" />
-92-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-93        </activity>
-94        <activity
-94-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:87:9-93:20
-95            android:name="com.example.uv_eats.Activity.CategoryRegister"
-95-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:88:13-54
-96            android:exported="false" >
-96-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:89:13-37
-97            <meta-data
-97-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-98                android:name="android.app.lib_name"
-98-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-99                android:value="" />
-99-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-100        </activity>
-101        <activity
-101-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:94:9-100:20
-102            android:name="com.example.uv_eats.Activity.EmployeeOptions"
-102-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:95:13-53
-103            android:exported="false" >
-103-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:96:13-37
-104            <meta-data
-104-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-105                android:name="android.app.lib_name"
-105-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-106                android:value="" />
-106-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-107        </activity>
-108        <activity
-108-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:101:9-107:20
-109            android:name="com.example.uv_eats.Activity.SignIn"
-109-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:102:13-44
-110            android:exported="false" >
-110-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:103:13-37
-111            <meta-data
-111-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-112                android:name="android.app.lib_name"
-112-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-113                android:value="" />
-113-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-114        </activity>
-115        <activity
-115-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:108:9-114:20
-116            android:name="com.example.uv_eats.Activity.PrincipalTabMenuActivity"
-116-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:109:13-62
-117            android:exported="false" >
-117-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:110:13-37
-118            <meta-data
-118-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
-119                android:name="android.app.lib_name"
-119-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
-120                android:value="" />
-120-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
-121        </activity>
-122        <activity
-122-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:115:9-123:20
-123            android:name="com.example.uv_eats.Activity.MainActivity"
-123-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:116:13-50
-124            android:exported="true" >
-124-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:117:13-36
-125            <intent-filter>
-125-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:118:13-122:29
-126                <action android:name="android.intent.action.MAIN" />
-126-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:119:17-69
-126-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:119:25-66
-127
-128                <category android:name="android.intent.category.LAUNCHER" />
-128-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:121:17-77
-128-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:121:27-74
-129            </intent-filter>
-130        </activity>
-131
-132        <provider
-132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-133            android:name="androidx.startup.InitializationProvider"
-133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-134            android:authorities="com.example.uv_eats.androidx-startup"
-134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-135            android:exported="false" >
-135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-136            <meta-data
-136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-138                android:value="androidx.startup" />
-138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-139            <meta-data
-139-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-140-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-141                android:value="androidx.startup" />
-141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-142        </provider>
-143    </application>
-144
-145</manifest>
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Uv_Eats" >
+24-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:15:9-45
+25        <activity
+25-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:17:9-23:20
+26            android:name="com.example.uv_eats.Activity.UserOptions"
+26-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:18:13-49
+27            android:exported="false" >
+27-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:19:13-37
+28            <meta-data
+28-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+29                android:name="android.app.lib_name"
+29-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+30                android:value="" />
+30-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+31        </activity>
+32        <activity
+32-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:24:9-30:20
+33            android:name="com.example.uv_eats.Activity.ConsultOrders"
+33-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:25:13-51
+34            android:exported="false" >
+34-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:26:13-37
+35            <meta-data
+35-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+36                android:name="android.app.lib_name"
+36-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+37                android:value="" />
+37-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+38        </activity>
+39        <activity
+39-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:31:9-37:20
+40            android:name="com.example.uv_eats.Activity.ConsultCategories"
+40-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:32:13-55
+41            android:exported="false" >
+41-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:33:13-37
+42            <meta-data
+42-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+43                android:name="android.app.lib_name"
+43-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+44                android:value="" />
+44-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+45        </activity>
+46        <activity
+46-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:38:9-44:20
+47            android:name="com.example.uv_eats.Activity.ConsultProducts"
+47-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:39:13-53
+48            android:exported="false" >
+48-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:40:13-37
+49            <meta-data
+49-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+50                android:name="android.app.lib_name"
+50-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+51                android:value="" />
+51-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+52        </activity>
+53        <activity
+53-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:45:9-51:20
+54            android:name="com.example.uv_eats.Activity.ConsultMenus"
+54-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:46:13-50
+55            android:exported="false" >
+55-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:47:13-37
+56            <meta-data
+56-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+57                android:name="android.app.lib_name"
+57-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+58                android:value="" />
+58-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+59        </activity>
+60        <activity
+60-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:52:9-58:20
+61            android:name="com.example.uv_eats.Activity.FavoriteProducts"
+61-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:53:13-54
+62            android:exported="false" >
+62-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:54:13-37
+63            <meta-data
+63-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+64                android:name="android.app.lib_name"
+64-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+65                android:value="" />
+65-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+66        </activity>
+67        <activity
+67-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:59:9-65:20
+68            android:name="com.example.uv_eats.Activity.ProceedPurchase"
+68-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:60:13-53
+69            android:exported="false" >
+69-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:61:13-37
+70            <meta-data
+70-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+71                android:name="android.app.lib_name"
+71-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+72                android:value="" />
+72-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+73        </activity>
+74        <activity
+74-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:66:9-72:20
+75            android:name="com.example.uv_eats.Activity.CategoryEdit"
+75-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:67:13-50
+76            android:exported="false" >
+76-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:68:13-37
+77            <meta-data
+77-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+78                android:name="android.app.lib_name"
+78-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+79                android:value="" />
+79-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+80        </activity>
+81        <activity
+81-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:73:9-79:20
+82            android:name="com.example.uv_eats.Activity.ProductEdit"
+82-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:74:13-49
+83            android:exported="false" >
+83-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:75:13-37
+84            <meta-data
+84-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+85                android:name="android.app.lib_name"
+85-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+86                android:value="" />
+86-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+87        </activity>
+88        <activity
+88-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:80:9-86:20
+89            android:name="com.example.uv_eats.Activity.ProductRegister"
+89-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:81:13-53
+90            android:exported="false" >
+90-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:82:13-37
+91            <meta-data
+91-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+92                android:name="android.app.lib_name"
+92-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+93                android:value="" />
+93-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+94        </activity>
+95        <activity
+95-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:87:9-93:20
+96            android:name="com.example.uv_eats.Activity.CategoryRegister"
+96-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:88:13-54
+97            android:exported="false" >
+97-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:89:13-37
+98            <meta-data
+98-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+99                android:name="android.app.lib_name"
+99-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+100                android:value="" />
+100-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+101        </activity>
+102        <activity
+102-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:94:9-100:20
+103            android:name="com.example.uv_eats.Activity.EmployeeOptions"
+103-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:95:13-53
+104            android:exported="false" >
+104-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:96:13-37
+105            <meta-data
+105-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+106                android:name="android.app.lib_name"
+106-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+107                android:value="" />
+107-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+108        </activity>
+109        <activity
+109-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:101:9-107:20
+110            android:name="com.example.uv_eats.Activity.SignIn"
+110-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:102:13-44
+111            android:exported="false" >
+111-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:103:13-37
+112            <meta-data
+112-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+113                android:name="android.app.lib_name"
+113-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+114                android:value="" />
+114-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+115        </activity>
+116        <activity
+116-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:108:9-114:20
+117            android:name="com.example.uv_eats.Activity.PrincipalTabMenuActivity"
+117-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:109:13-62
+118            android:exported="false" >
+118-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:110:13-37
+119            <meta-data
+119-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:20:13-22:36
+120                android:name="android.app.lib_name"
+120-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:21:17-52
+121                android:value="" />
+121-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:22:17-33
+122        </activity>
+123        <activity
+123-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:115:9-123:20
+124            android:name="com.example.uv_eats.Activity.MainActivity"
+124-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:116:13-50
+125            android:exported="true" >
+125-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:117:13-36
+126            <intent-filter>
+126-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:118:13-122:29
+127                <action android:name="android.intent.action.MAIN" />
+127-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:119:17-69
+127-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:119:25-66
+128
+129                <category android:name="android.intent.category.LAUNCHER" />
+129-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:121:17-77
+129-->A:\Android Studio proyects\COPIA 1\github\app\src\main\AndroidManifest.xml:121:27-74
+130            </intent-filter>
+131        </activity>
+132
+133        <provider
+133-->[com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+134            android:name="com.squareup.picasso.PicassoProvider"
+134-->[com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+135            android:authorities="com.example.uv_eats.com.squareup.picasso"
+135-->[com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+136            android:exported="false" />
+136-->[com.squareup.picasso:picasso:2.8] C:\Users\SamuelSC\.gradle\caches\transforms-3\6dad47b80a9f3fcdc1b0c6d85f5abe52\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+137        <provider
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+138            android:name="androidx.startup.InitializationProvider"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+139            android:authorities="com.example.uv_eats.androidx-startup"
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+140            android:exported="false" >
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+141            <meta-data
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+142                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+143                android:value="androidx.startup" />
+143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SamuelSC\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+144            <meta-data
+144-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+145                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+145-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+146                android:value="androidx.startup" />
+146-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SamuelSC\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+147        </provider>
+148    </application>
+149
+150</manifest>
