@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\fragment_cart.xml",
-        "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\fragment_cart.xml"
-    },
-    {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\activity_user_options.xml",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\activity_user_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\fragment_cart.xml",
+        "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\fragment_cart.xml"
     },
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\activity_principal_tab_menu_activity.xml",
@@ -28,10 +28,6 @@
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\activity_favorite_products.xml"
     },
     {
-        "merged": "com.example.uv_eats.app-mergeDebugResources-4:/layout/menu_item.xml",
-        "source": "com.example.uv_eats.app-main-7:/layout/menu_item.xml"
-    },
-    {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\activity_category_register.xml",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\activity_category_register.xml"
     },
@@ -52,12 +48,20 @@
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\activity_consult_categories.xml"
     },
     {
+        "merged": "com.example.uv_eats.app-mergeDebugResources-4:/layout/cart_item.xml",
+        "source": "com.example.uv_eats.app-main-7:/layout/cart_item.xml"
+    },
+    {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\activity_proceed_purchase.xml",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\activity_proceed_purchase.xml"
     },
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\record_item.xml",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\record_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-mergeDebugResources-4:/layout/proceedpurchase_item.xml",
+        "source": "com.example.uv_eats.app-main-7:/layout/proceedpurchase_item.xml"
     },
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\activity_product_register.xml",
@@ -106,6 +110,10 @@
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\consultorders_item.xml",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\consultorders_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-mergeDebugResources-4:/layout/record_item.xml",
+        "source": "com.example.uv_eats.app-main-7:/layout/record_item.xml"
     },
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-mergeDebugResources-4:\\layout\\activity_employee_options.xml",

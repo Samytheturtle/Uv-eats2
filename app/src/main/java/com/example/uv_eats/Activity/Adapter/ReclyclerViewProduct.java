@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.uv_eats.Activity.POCO.Modelo.MenuProducto;
+import com.example.uv_eats.Activity.POCO.Modelo.Producto;
 import com.example.uv_eats.R;
 import com.squareup.picasso.Picasso;
 
@@ -17,7 +18,7 @@ import java.util.List;
 
 public class ReclyclerViewProduct extends RecyclerView.Adapter<ReclyclerViewProduct.ViewHolder> {
     public static class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView nombre, descripcion,precio;
+        private TextView nombre, descripcion,precio,numLike,numDislike;
         private ImageView fotoProducto;
 
         public ViewHolder(View itemView){
@@ -25,30 +26,34 @@ public class ReclyclerViewProduct extends RecyclerView.Adapter<ReclyclerViewProd
             nombre=(TextView) itemView.findViewById(R.id.productName);
             descripcion=(TextView) itemView.findViewById(R.id.productDescription);
             precio=(TextView) itemView.findViewById(R.id.productPrice);
+            numLike=(TextView) itemView.findViewById(R.id.numLike);
+            numDislike=(TextView) itemView.findViewById(R.id.numdislike);
             fotoProducto=(ImageView) itemView.findViewById(R.id.iconProduct);
         }
     }
-    public List<MenuProducto>menuproducto;
+    public List<Producto>productoMenu;
 
-    public ReclyclerViewProduct(List<MenuProducto> menuproducto){
-        this.menuproducto=menuproducto;
+    public ReclyclerViewProduct(List<Producto> productoMenu){
+        this.productoMenu=productoMenu;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.menu_item,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.product_item,parent,false);
         ViewHolder viewHolder=new ViewHolder(view);
         return viewHolder;
     }
     @Override
     public void onBindViewHolder(@NonNull ReclyclerViewProduct.ViewHolder holder, int position) {
-        holder.nombre.setText(menuproducto.get(position).getNombre());
-        holder.descripcion.setText(menuproducto.get(position).getDescripcion());
-        holder.precio.setText(menuproducto.get(position).getPrecio());
-        Picasso.get().load(menuproducto.get(position).getUrl()).error(R.drawable.icon_menu).into(holder.fotoProducto);
+        holder.nombre.setText(productoMenu.get(position).getNombre());
+        holder.descripcion.setText(productoMenu.get(position).getDescripcion());
+        holder.precio.setText(productoMenu.get(position).getPrecio());
+        holder.numLike.setText(productoMenu.get(position).getNumLike());
+        holder.numDislike.setText(productoMenu.get(position).getNumDislike());
+        Picasso.get().load(productoMenu.get(position).getUrl()).error(R.drawable.icon_menu).into(holder.fotoProducto);
     }
     @Override
     public int getItemCount(){
-        return menuproducto.size();
+        return productoMenu.size();
     }
 }

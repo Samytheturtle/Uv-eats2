@@ -2895,6 +2895,8 @@ int id north 0x7f08016b
 int id notification_background 0x7f08016c
 int id notification_main_column 0x7f08016d
 int id notification_main_column_container 0x7f08016e
+int id numLike 0x7f080229
+int id numdislike 0x7f08022a
 int id off 0x7f08016f
 int id on 0x7f080170
 int id onAttachStateChangeListener 0x7f080171

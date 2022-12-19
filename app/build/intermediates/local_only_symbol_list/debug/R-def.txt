@@ -74,6 +74,8 @@ id eq_recycler_product
 id eq_recycler_record
 id iconProduct
 id linear
+id numLike
+id numdislike
 id price
 id productDescription
 id productName

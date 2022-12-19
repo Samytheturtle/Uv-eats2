@@ -1,7 +1,11 @@
 package com.example.uv_eats.Activity.HttpRequest;
 import com.example.uv_eats.Activity.POCO.Auth;
+import com.example.uv_eats.Activity.POCO.Modelo.Carrito;
+import com.example.uv_eats.Activity.POCO.Modelo.ImagenProducto;
 import com.example.uv_eats.Activity.POCO.Modelo.MenuImagen;
 import com.example.uv_eats.Activity.POCO.Modelo.MenuProducto;
+import com.example.uv_eats.Activity.POCO.Modelo.OrdenProducto;
+import com.example.uv_eats.Activity.POCO.Modelo.Producto;
 import com.example.uv_eats.Activity.POCO.Usuario;
 import com.google.gson.Gson;
 
@@ -34,8 +38,22 @@ public interface ApiMetodos {
     @GET("api/Menu/")
     Call<List<MenuProducto>> getMenu(@Header("Authorization")String token);
 
+    //metodos Productos
+    @GET("api/producto/")
+    Call<List<Producto>> getProducto(@Header("Authorization")String token);
+
+    //metodos Carrito
+    @GET("api/carro/carroProducto/{idUsuario}")
+    Call<List<Carrito>> getCarrito(@Path("idUsuario")int idUsuario, @Header("Authorization")String token);
+
+    //metodos Orden producto
+    @GET("api/orden/")
+    Call<List<OrdenProducto>> getOrdenproducto(@Header("Authorization")String token);
+
     //metodos archivo
     @GET("api/archivo/getMenu")
     Call<List<MenuImagen>> getMenuArchivos();
+    @GET("api/archivo/getProducto")
+    Call<List<ImagenProducto>> getImagenProducto();
 
 }

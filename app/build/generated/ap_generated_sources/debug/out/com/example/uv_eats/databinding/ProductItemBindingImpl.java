@@ -19,7 +19,9 @@ public class ProductItemBindingImpl extends ProductItemBinding  {
         sViewsWithIds.put(R.id.productPrice, 3);
         sViewsWithIds.put(R.id.productDescription, 4);
         sViewsWithIds.put(R.id.ImageLike, 5);
-        sViewsWithIds.put(R.id.ImageDislike, 6);
+        sViewsWithIds.put(R.id.numLike, 6);
+        sViewsWithIds.put(R.id.ImageDislike, 7);
+        sViewsWithIds.put(R.id.numdislike, 8);
     }
     // views
     @NonNull
@@ -30,13 +32,15 @@ public class ProductItemBindingImpl extends ProductItemBinding  {
     // Inverse Binding Event Handlers
 
     public ProductItemBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
     }
     private ProductItemBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ImageView) bindings[6]
+            , (android.widget.ImageView) bindings[7]
             , (android.widget.ImageView) bindings[5]
             , (android.widget.ImageView) bindings[1]
+            , (android.widget.TextView) bindings[6]
+            , (android.widget.TextView) bindings[8]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[3]
