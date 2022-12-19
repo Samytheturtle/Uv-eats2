@@ -12,10 +12,10 @@
 
         <ImageView
             android:id="@+id/iconProduct"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/icon_newproduct"
-        />
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="center"
+            android:src="@drawable/icon_newproduct" />
         <TextView
             android:id="@+id/productName"
             android:layout_width="wrap_content"
@@ -66,14 +66,14 @@
             />
 
         <TextView
+            android:id="@+id/numLike"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/ImageLike"
             android:layout_below="@id/productDescription"
+            android:layout_toEndOf="@id/ImageLike"
             android:paddingStart="5dp"
             android:text="25"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
         <ImageView
             android:id="@+id/ImageDislike"
             android:layout_width="wrap_content"
@@ -83,14 +83,15 @@
             android:layout_toEndOf="@id/iconProduct"
             android:paddingStart="10dp"
             />
+
         <TextView
+            android:id="@+id/numdislike"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/ImageDislike"
             android:layout_below="@id/ImageLike"
+            android:layout_toEndOf="@id/ImageDislike"
             android:paddingStart="5dp"
-            android:textSize="20dp"
             android:text="10"
-            />
+            android:textSize="20dp" />
     </RelativeLayout>
          

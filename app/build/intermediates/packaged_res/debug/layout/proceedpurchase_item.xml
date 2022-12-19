@@ -13,11 +13,11 @@
 
         <ImageView
             android:id="@+id/iconProduct"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/icon_newproduct"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:paddingLeft="5dp"
-            />
+            android:scaleType="center"
+            android:src="@drawable/icon_newproduct" />
         <TextView
             android:id="@+id/productName"
             android:layout_width="wrap_content"

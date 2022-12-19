@@ -25,6 +25,12 @@ public abstract class ProductItemBinding extends ViewDataBinding {
   public final ImageView iconProduct;
 
   @NonNull
+  public final TextView numLike;
+
+  @NonNull
+  public final TextView numdislike;
+
+  @NonNull
   public final TextView productDescription;
 
   @NonNull
@@ -34,12 +40,15 @@ public abstract class ProductItemBinding extends ViewDataBinding {
   public final TextView productPrice;
 
   protected ProductItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView ImageDislike, ImageView ImageLike, ImageView iconProduct,
-      TextView productDescription, TextView productName, TextView productPrice) {
+      ImageView ImageDislike, ImageView ImageLike, ImageView iconProduct, TextView numLike,
+      TextView numdislike, TextView productDescription, TextView productName,
+      TextView productPrice) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ImageDislike = ImageDislike;
     this.ImageLike = ImageLike;
     this.iconProduct = iconProduct;
+    this.numLike = numLike;
+    this.numdislike = numdislike;
     this.productDescription = productDescription;
     this.productName = productName;
     this.productPrice = productPrice;
