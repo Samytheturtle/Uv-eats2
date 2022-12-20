@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.uv_eats.Activity.POCO.Auth;
 import com.example.uv_eats.R;
@@ -28,7 +29,9 @@ public class Cart extends Fragment {
     private String mParam2;
     private Auth autenticacionRecibida;
 
+    View vista;
     public Cart() {
+
         // Required empty public constructor
     }
     public Cart(Auth autenticacion) {
@@ -49,6 +52,7 @@ public class Cart extends Fragment {
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
+
         return fragment;
     }
 
@@ -58,13 +62,17 @@ public class Cart extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cart, container, false);
+        vista=inflater.inflate(R.layout.fragment_cart, container, false);
+        return vista;
+
     }
 }

@@ -2798,6 +2798,7 @@ id horizontal_only
 id icon
 id iconProduct
 id icon_group
+id idTOTALPRECIOCARRITO
 id ifRoom
 id ignore
 id ignoreRequest

@@ -41,6 +41,8 @@ public interface ApiMetodos {
     //metodos Productos
     @GET("api/producto/")
     Call<List<Producto>> getProducto(@Header("Authorization")String token);
+    @GET("api/producto/getFav/{idUsuario}")
+    Call<List<Producto>> getProductoFav(@Path("idUsuario")int idUsuario, @Header("Authorization")String token);
 
     //metodos Carrito
     @GET("api/carro/carroProducto/{idUsuario}")

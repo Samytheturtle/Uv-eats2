@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -21,11 +22,15 @@ public abstract class FragmentCartBinding extends ViewDataBinding {
   @NonNull
   public final RecyclerView eqRecyclerCar;
 
+  @NonNull
+  public final TextView idTOTALPRECIOCARRITO;
+
   protected FragmentCartBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button ProceedPurchase, RecyclerView eqRecyclerCar) {
+      Button ProceedPurchase, RecyclerView eqRecyclerCar, TextView idTOTALPRECIOCARRITO) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ProceedPurchase = ProceedPurchase;
     this.eqRecyclerCar = eqRecyclerCar;
+    this.idTOTALPRECIOCARRITO = idTOTALPRECIOCARRITO;
   }
 
   @NonNull

@@ -47,7 +47,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
     ViewPager viewPager;
     TabItem tabProduct, tabCart, tabRecord;
     PagerController pagerAdapter;
-
+    public String precioCarro;
     public List<MenuProducto> menuRecuperacionEstatico=new ArrayList<>();
     public List<Producto> productoRecuperacionEstatico=new ArrayList<>();
     public List<Carrito> carRecuperacionEstatico=new ArrayList<>();
@@ -67,6 +67,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityPrincipalTabMenuActivityBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
         Bundle objetoRecibido=getIntent().getExtras();
         autenticacion= (Auth) objetoRecibido.getSerializable("Auth");
         Bundle objeto2Recibido=getIntent().getExtras();
@@ -77,6 +78,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
         cargarObjetosProductos();
         cargarObjetosCarrito();
         cargarObjetosHistorial();
+
 
         //establecimiento de funcionamiento botones
         System.out.println(tipoUsuario);
@@ -96,7 +98,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
 
         binding.UserImage.setOnClickListener(v ->{
 
-            startUserOptions();
+            startUserOptions(autenticacion,tipoUsuario);
         });
 
         tabLayout = binding.tabLayout;
@@ -104,7 +106,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
         tabProduct = binding.tabProducts;
         tabCart = binding.tabCart;
         tabRecord = binding.tabRecord;
-        pagerAdapter = new PagerController(getSupportFragmentManager(), tabLayout.getTabCount(),autenticacion);
+        pagerAdapter = new PagerController(getSupportFragmentManager(), tabLayout.getTabCount(),autenticacion,precioCarro);
         viewPager.setAdapter(pagerAdapter);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -115,11 +117,13 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
                     System.out.println("TABLA-PRO"+tabmenu.getPosition());
                     pagerAdapter.notifyDataSetChanged();
                     cargarElementosProductos();
+
                 }
                 if(tabmenu.getPosition() == 2){
                     System.out.println("TABLA-CAR"+tabmenu.getPosition());
                     pagerAdapter.notifyDataSetChanged();
                     cargarElementosCarrito();
+
                 }
                 if(tabmenu.getPosition() == 3){
                     System.out.println("TABLA-HIS"+tabmenu.getPosition());
@@ -298,6 +302,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
     }
     private void agregarImagenesCarrito(List<Carrito> carroItem, List<ImagenProducto> menuImagens){
         System.out.println("cargarMenu IMAGEN8645451dasdw");
+        int precioProductos=0;
         for(int i=0;i<carroItem.size();i++){
             System.out.println("cArgar imagen for "+carroItem.get(i).getIdProducto());
             for(int o=0;o<menuImagens.size();o++){
@@ -310,9 +315,12 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
                     System.out.println(carroItem.get(i).getCantidad());
                     System.out.println(carroItem.get(i).getPrecio());
                     System.out.println(carroItem.get(i).getUrl());
+                    precioProductos=precioProductos+Integer.parseInt(carroItem.get(i).getPrecio());
                 }
             }
         }
+
+        precioCarro=String.valueOf(precioProductos);
         carRecuperacionEstatico=carroItem;
     }
 
@@ -366,8 +374,16 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
     }
 
 
-    private void startUserOptions() {
+    private void startUserOptions(Auth auth, String tipoUsuario) {
         Intent intent =  new Intent(this, UserOptions.class);
+        startActivity(intent);
+        Bundle bundle = new Bundle();
+        Bundle bundle2 = new Bundle();
+
+        bundle.putSerializable("Auth",auth);
+        intent.putExtras(bundle);
+        bundle2.putSerializable("tipo",tipoUsuario);
+        intent.putExtras(bundle2);
         startActivity(intent);
     }
 

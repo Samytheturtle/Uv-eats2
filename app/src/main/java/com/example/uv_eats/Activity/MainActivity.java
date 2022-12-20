@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             String username = String.valueOf(binding.TextUser.getText());
             String password = String.valueOf(binding.TextPassword.getText());
             //RECORDATORIO agregar inicio de sesion exitos.
-            //Toast.makeText(MainActivity.this, "Username:" + username + " Password:" + password.toString(), Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "ACCESO PERMITIDO: "+username, Toast.LENGTH_LONG).show();
             validarCampos();
         });
 

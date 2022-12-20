@@ -11,10 +11,13 @@ import com.example.uv_eats.Activity.POCO.Auth;
 public class PagerController extends FragmentPagerAdapter {
     int numOfTabs;
     Auth autenticacionRecibida;
-    public PagerController(@NonNull FragmentManager fm, int behavior, Auth autenticacion) {
+    String precioProducto;
+    public PagerController(@NonNull FragmentManager fm, int behavior, Auth autenticacion,String precioProducto) {
         super(fm, behavior);
         this.numOfTabs = behavior;
         this.autenticacionRecibida=autenticacion;
+        this.precioProducto=precioProducto;
+
     }
 
     @NonNull

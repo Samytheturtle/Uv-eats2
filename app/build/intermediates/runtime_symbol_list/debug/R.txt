@@ -2797,6 +2797,7 @@ int id horizontal_only 0x7f080109
 int id icon 0x7f08010a
 int id iconProduct 0x7f08010b
 int id icon_group 0x7f08010c
+int id idTOTALPRECIOCARRITO 0x7f08022b
 int id ifRoom 0x7f08010d
 int id ignore 0x7f08010e
 int id ignoreRequest 0x7f08010f

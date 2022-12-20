@@ -15,7 +15,8 @@ public class FragmentCartBindingImpl extends FragmentCartBinding  {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.eq_recycler_car, 1);
-        sViewsWithIds.put(R.id.ProceedPurchase, 2);
+        sViewsWithIds.put(R.id.idTOTALPRECIOCARRITO, 2);
+        sViewsWithIds.put(R.id.ProceedPurchase, 3);
     }
     // views
     @NonNull
@@ -26,12 +27,13 @@ public class FragmentCartBindingImpl extends FragmentCartBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentCartBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private FragmentCartBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[2]
+            , (android.widget.Button) bindings[3]
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
+            , (android.widget.TextView) bindings[2]
             );
         this.mboundView0 = (android.widget.FrameLayout) bindings[0];
         this.mboundView0.setTag(null);

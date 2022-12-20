@@ -73,6 +73,7 @@ id eq_recycler_menu
 id eq_recycler_product
 id eq_recycler_record
 id iconProduct
+id idTOTALPRECIOCARRITO
 id linear
 id numLike
 id numdislike

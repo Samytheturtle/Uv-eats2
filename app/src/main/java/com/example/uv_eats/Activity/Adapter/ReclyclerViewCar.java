@@ -18,7 +18,7 @@ import java.util.List;
 
 public class ReclyclerViewCar extends RecyclerView.Adapter<ReclyclerViewCar.ViewHolder> {
     public static class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView nombre, descripcion,precio;
+        private TextView nombre, descripcion,precio,PrecioTotal;
         private ImageView fotoProducto;
 
         public ViewHolder(View itemView){
@@ -27,12 +27,20 @@ public class ReclyclerViewCar extends RecyclerView.Adapter<ReclyclerViewCar.View
             descripcion=(TextView) itemView.findViewById(R.id.amountNumber);
             precio=(TextView) itemView.findViewById(R.id.productPrice);
             fotoProducto=(ImageView) itemView.findViewById(R.id.iconProduct);
+            PrecioTotal=(TextView) itemView.findViewById(R.id.idTOTALPRECIOCARRITO);
         }
     }
     public List<Carrito>carrito;
-
+    public int Precio=0;
     public ReclyclerViewCar(List<Carrito> carrito){
         this.carrito=carrito;
+    }
+
+    public void establecerPrecio(){
+
+        for(int i=0;i<carrito.size();i++){
+            carrito.get(i).getPrecio();
+        }
     }
 
     @Override
