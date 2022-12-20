@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Uv_Eats</string>
-    <string name="Label_User">Usuario</string>
+    <string name="Label_User">apellido</string>
     <string name="Label_Password">Contraseña</string>
     <string name="Button_Login">Iniciar Sesión</string>
     <string name="User_Register">Registrar Usuario</string>

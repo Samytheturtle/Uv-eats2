@@ -88,7 +88,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
         }
 
         binding.OptionsImage.setOnClickListener(v ->{
-            startEmployeeOptions();
+            startEmployeeOptions(autenticacion,tipoUsuario);
 
         });
 
@@ -392,8 +392,15 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void startEmployeeOptions() {
+    private void startEmployeeOptions(Auth auth, String tipoUsuario) {
         Intent intent = new Intent(this, EmployeeOptions.class);
+        Bundle bundle = new Bundle();
+        Bundle bundle2 = new Bundle();
+
+        bundle.putSerializable("Auth",auth);
+        intent.putExtras(bundle);
+        bundle2.putSerializable("tipo",tipoUsuario);
+        intent.putExtras(bundle2);
         startActivity(intent);
     }
 

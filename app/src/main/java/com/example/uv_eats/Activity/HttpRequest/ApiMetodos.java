@@ -1,6 +1,7 @@
 package com.example.uv_eats.Activity.HttpRequest;
 import com.example.uv_eats.Activity.POCO.Auth;
 import com.example.uv_eats.Activity.POCO.Modelo.Carrito;
+import com.example.uv_eats.Activity.POCO.Modelo.Categoria;
 import com.example.uv_eats.Activity.POCO.Modelo.ImagenProducto;
 import com.example.uv_eats.Activity.POCO.Modelo.MenuImagen;
 import com.example.uv_eats.Activity.POCO.Modelo.MenuProducto;
@@ -32,6 +33,9 @@ public interface ApiMetodos {
     @Headers({"Content-Type: application/json"})
     @POST("api/auth")
     Call<Auth> getUsuario(@Body Usuario usuarioConsulta);
+    @Headers({"Content-Type: application/json"})
+    @POST("api/usuario")
+    Call<Usuario> addUsuario(@Body Usuario usuarioRegistro);
 
     //metodos menu
     //@Headers({"Content-Type: application/json"})
@@ -58,4 +62,7 @@ public interface ApiMetodos {
     @GET("api/archivo/getProducto")
     Call<List<ImagenProducto>> getImagenProducto();
 
+    //metodos categoria
+    @GET("api/categoria/")
+    Call<List<Categoria>> getCategorias(@Header("Authorization")String token);
 }

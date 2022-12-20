@@ -34,7 +34,7 @@
     <string name="InstructionsCode">Ingrese el codigo de validación</string>
     <string name="InstructionsEmail">Ingrese su correo</string>
     <string name="Label_Password">Contraseña</string>
-    <string name="Label_User">Usuario</string>
+    <string name="Label_User">apellido</string>
     <string name="Menu">Menú</string>
     <string name="Menu_Day">Platillo del dia</string>
     <string name="Menu_Register">Registrar Menu</string>

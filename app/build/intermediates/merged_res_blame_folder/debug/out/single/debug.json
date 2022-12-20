@@ -32,10 +32,6 @@
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.uv_eats.app-merged_res-5:/layout_favorite_product_item.xml.flat",
-        "source": "com.example.uv_eats.app-main-7:/layout/favorite_product_item.xml"
-    },
-    {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-5:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -150,6 +146,10 @@
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-5:\\layout_consultmenus_item.xml.flat",
         "source": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-main-7:\\layout\\consultmenus_item.xml"
+    },
+    {
+        "merged": "com.example.uv_eats.app-merged_res-5:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.uv_eats.app-main-7:/layout/activity_sign_in.xml"
     },
     {
         "merged": "C:\\Users\\SamuelSC\\.gradle\\daemon\\7.3.3\\com.example.uv_eats.app-merged_res-5:\\layout_activity_product_edit.xml.flat",

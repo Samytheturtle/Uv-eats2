@@ -40,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.ButtonLogin.setOnClickListener(v ->{
-            String username = String.valueOf(binding.TextUser.getText());
-            String password = String.valueOf(binding.TextPassword.getText());
-            //RECORDATORIO agregar inicio de sesion exitos.
-            Toast.makeText(MainActivity.this, "ACCESO PERMITIDO: "+username, Toast.LENGTH_LONG).show();
             validarCampos();
         });
 
@@ -58,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             //startPrincipalTab2();
         }else{
             ConsumoAPI();
+            Toast.makeText(MainActivity.this, "ACCESO PERMITIDO: "+usernameText, Toast.LENGTH_LONG).show();
         }
     }
     private void ConsumoAPI(){
