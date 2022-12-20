@@ -50,7 +50,7 @@ public class ReclyclerViewRecord extends RecyclerView.Adapter<ReclyclerViewRecor
         holder.estado.setText(productosOrden.get(position).getEstado());
         holder.precio.setText(productosOrden.get(position).getTotal());
         holder.ubicacion.setText("FACULTAD DE ECONOMIA E INFORMATICA");
-        Picasso.get().load(productosOrden.get(position).getUrl()).error(R.drawable.icon_menu).into(holder.fotoProducto);
+        Picasso.get().load("EROR").error(R.drawable.icon_menu).into(holder.fotoProducto);
     }
     @Override
     public int getItemCount(){

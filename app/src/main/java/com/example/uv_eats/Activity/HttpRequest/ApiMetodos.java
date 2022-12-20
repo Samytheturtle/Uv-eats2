@@ -47,8 +47,8 @@ public interface ApiMetodos {
     Call<List<Carrito>> getCarrito(@Path("idUsuario")int idUsuario, @Header("Authorization")String token);
 
     //metodos Orden producto
-    @GET("api/orden/")
-    Call<List<OrdenProducto>> getOrdenproducto(@Header("Authorization")String token);
+    @GET("api/orden/{idUsuario}")
+    Call<List<OrdenProducto>> getOrdenproducto(@Path("idUsuario")int idUsuario, @Header("Authorization")String token);
 
     //metodos archivo
     @GET("api/archivo/getMenu")

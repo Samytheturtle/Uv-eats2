@@ -76,6 +76,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
         cargarObjetosMenu();
         cargarObjetosProductos();
         cargarObjetosCarrito();
+        cargarObjetosHistorial();
 
         //establecimiento de funcionamiento botones
         System.out.println(tipoUsuario);
@@ -123,6 +124,7 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
                 if(tabmenu.getPosition() == 3){
                     System.out.println("TABLA-HIS"+tabmenu.getPosition());
                     pagerAdapter.notifyDataSetChanged();
+                    cargarElementosOrdenesRealizadas();
                 }
                 if(tabmenu.getPosition() == 0){
                     System.out.println("TABLA-MENU"+tabmenu.getPosition());
@@ -315,9 +317,24 @@ public class PrincipalTabMenuActivity extends AppCompatActivity {
     }
 
 //Cargar elementos historial productos
-    private void cargarObjetosHistorial(){}
-    private void cargarImagenesHistorial(){}
-    private void agregarImagenesHistorial(){}
+    private void cargarObjetosHistorial(){
+        System.out.println("cargarMenu IMAGEN");
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(API.getUrl()).addConverterFactory((GsonConverterFactory.create())).build();
+        ApiMetodos apiService = retrofit.create(ApiMetodos.class);
+        Call<List<OrdenProducto>> call= apiService.getOrdenproducto(autenticacion.getId(),autenticacion.getToken());
+        System.out.println("cargarMenu IMAGEN2");
+        call.enqueue(new Callback<List<OrdenProducto>>() {
+            @Override
+            public void onResponse(Call<List<OrdenProducto>> call, Response<List<OrdenProducto>> response) {
+                historialRecuperacionEstatico=response.body();
+            }
+
+            @Override
+            public void onFailure(Call<List<OrdenProducto>> call, Throwable t) {
+
+            }
+        });
+    }
 
 ///Adaptadores de carga de elementos.
     public void cargarElementosMenu() {
